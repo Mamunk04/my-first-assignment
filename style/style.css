@@ -460,3 +460,71 @@ footer{
     padding-inline-start: 0;
     padding-top: 5rem;
 }
+
+
+/* Media Query */
+
+@media screen and (max-width:576px) {
+    #full-body{
+        margin: 20px;
+    }
+    #hero{
+        flex-direction: column-reverse;
+    }
+    .Pillars-flex{
+        flex-direction: column;
+    }
+    .future-flex{
+        flex-direction: column;
+    }
+    .Satellite1{
+        flex-direction: column;
+
+    }
+    .Satellite1 img{
+        width: 100%;
+    }
+    .satallite2{
+        flex-direction: column;
+    }
+    .satallite2 img{
+        width:100% ;
+    }
+    .satallite3{
+        flex-direction: column;
+    }
+    .satallite3 img{
+        width:100% ;
+    }
+    .Donate{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .subscribe-btn{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe-btn button {
+        margin-top: 15px; 
+        border-radius: 10px;
+        
+    }
+    .subscribe-btn input {
+        background-color: white;
+        height: 30px;
+        width: 100%;
+        margin: 0;
+        border-right-color: white;
+        border: 1px solid rgb(185, 182, 182);
+        padding: 10px;
+        border-radius: 10px;
+       
+    }
+    .subscribe-area{
+        padding: 10px;
+    }
+}
